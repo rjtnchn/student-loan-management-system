@@ -9,7 +9,7 @@ This is your personal step-by-step guide. Find your name below and follow only t
 ## Part 0 — Everyone: one-time setup
 
 ```bash
-git clone https://github.com/<lead-username>/student-loan-management-system.git
+git clone https://github.com/<rjtnchn>/student-loan-management-system.git
 cd student-loan-management-system
 docker compose up -d
 ```
