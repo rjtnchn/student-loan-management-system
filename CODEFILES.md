@@ -3,6 +3,14 @@ CREATE FOLDER: mysql-init
 
 THEN ASS FILE:loan_payment_schema.sql  
 
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    course VARCHAR(100) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
 COPY THIS:
 -- ─────────────────────────────────────────────────────────
 -- Migration: adds loans and payments tables
