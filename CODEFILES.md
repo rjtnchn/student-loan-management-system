@@ -632,6 +632,7 @@ index.html
         fetchPayments(currentLoanId);
     });
 
+
     async function deletePayment(id) {
         if (confirm("Delete this payment record?")) {
             const response = await fetch(PAYMENTS_API_URL, {
