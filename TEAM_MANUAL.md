@@ -156,7 +156,7 @@ git checkout -b qa/testing-and-docs
 
 ---
 
-## Lead (you)
+## Lead Ralph
 
 - Keep the GitHub Projects board updated as PRs open/merge
 - Review and merge in this order: Johnpaul → Aaron → Joshua → Shane's docs
